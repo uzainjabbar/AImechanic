@@ -1,0 +1,18 @@
+[project]
+name = "aimechanic"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "dotenv>=0.9.9",
+    "langchain[google-genai]>=0.3.26",
+    "langchain-community>=0.3.26",
+    "langchain-text-splitters>=0.3.8",
+    "langgraph>=0.4.8",
+    "langchain-google-genai>=2.1.5",
+    "langchain-pinecone>=0.2.8",
+    "beautifulsoup4>=4.13.4",
+    "ipython>=9.3.0",
+    "pypdf>=5.6.1",
+]
